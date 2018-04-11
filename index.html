@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+        <link rel="stylesheet" href="src/css/normalize.css">
+        <link rel="stylesheet" href="src/css/main.css">
+        <title>Test title</title>
+    </head>
+    <body>
+        <div class="container">
+            <label for="wplacone">Kwota wplaty: </label>
+            <input type="text" id="wplacone" name="wplacone"/>
+            <button value="wplac" id="wplacc">Wplac</button><button value="prowizjaWplata" id="prWplata">Wplata z prowizja</button><br/>
+            <label for="wyplacone">Kwota wyplaty: </label>
+            <input type="text" id="wyplacone" name="wyplacone"/>
+            <button value="wyplac" id="wyplacc">Wyplac</button> <button value="prowizjaWyplata" id="prWyplata">Wyplata z prowizja</button><br/>
+            <button value="pokazStan" id="stan">Pokaz stan konta</button>
+            <p id="stanKonta"></p><p id="wal"></p>
+            <label id=" labelW" for="waluta">Waluta:</label>
+            <select id="waluta">
+                <option value="euro">EUR</option>
+                <option value="zloty">PLN</option>
+            </select>
+            <button value="wplacW" id="wplacW">Wplac walute</button>
+            <button value="wyplacW" id="wyplacW">Wyplac walute</button>
+            <button value="zamienW" id="zamienW">Zamien walute</button><br/>
+            <label for="rodzajKonta">Utworz konto:</label>
+            <select id="rodzajKonta">
+                <option value="zwykle">Zwykłe</option>
+                <option value="vip">VIP</option>
+                <option value="walutowe">Walutowe</option>
+            </select>
+            <div id="kontoZ">
+            </div>
+            <div id="kontoV">
+            </div>
+            <div id="kontoW">
+            </div>
+        </div>
+         <script src="dist/js/app.js"></script>
+    </body>
+</html>

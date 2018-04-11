@@ -1,0 +1,16 @@
+{
+    "name": "simple-starter",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "babel src/js --out-dir dist/js --source-maps --watch"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-preset-es2015": "^6.24.1"
+    },
+    "babel": {
+        "presets": [
+            "es2015"
+        ]
+    }
+}
